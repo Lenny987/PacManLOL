@@ -11,7 +11,7 @@
 | `ghost_count` | `int` | Количество призраков (`1`–`4`) |
 | `first_launch` | `bool` | Флаг первого запуска |
 | `resolution` | `tuple` | Разрешение экрана |
-| `file_path` | `str` | Путь к `settings.json` |
+| `file_path` | `str` | Путь к `settings.txt` |
 
 ## ⚙️ Методы
 | Метод | Описание |
@@ -24,5 +24,5 @@
 | `set_ghost_count(value)` | Установка числа призраков |
 
 ## 🔗 Взаимодействие
-- **Зависит от:** `json`, `SoundManager`
+- **Зависит от:** `txt`, `SoundManager`
 - **Вызывается:** `Game.__init__()`, `Menu.show_settings()`
